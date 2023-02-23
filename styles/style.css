@@ -1,0 +1,260 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Yeseva+One&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+    /* background: #111111; */
+    background: url("bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+img, input, button, textarea, a{
+    display: block;
+    border: none;
+    outline: none;
+    background: transparent;
+    font-family: inherit;
+}
+a{
+    text-decoration: none;
+}
+button{
+    cursor: pointer;
+}
+.container{
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.header{
+    padding: 10px 0;
+}
+.logo{
+    font-weight: 700;
+    font-size: 30px;
+    width: 150px;
+}
+.header-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header-form{
+    display: flex;
+    align-items: center;
+    background: rgba(128, 128, 128, 0.097);
+    width: 300px;
+    border-radius: 30px;
+    padding: 10px 20px;
+}
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav a{
+    font-size: 16px;
+    font-weight: 500;
+    margin-right: 30px;
+    color: #111111;
+}
+.buttons{
+    display: flex;
+    align-items: center;
+}
+.header-form input{
+    width: 100%;
+}
+.header-wrapper i{
+    color: #11111191;
+    cursor: pointer;
+    float: right;
+    margin-right: 30px;
+}
+.logo-wrapper, .nav, .buttons{
+    width: 30%;
+}
+.buttons{
+    justify-content: flex-end;
+}
+.header-wrapper button{
+    padding:10px 20px;
+    background: #A274FF;
+    border-radius: 30px;
+}
+.header-wrapper button a{
+    font-size: 15px;
+    color: white;
+}
+
+.s1-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.swiper{
+    width: 550px;
+    height: 550px;
+}
+.swiper-slide img{
+    width: 100%;
+}
+.s1-left h1{
+    font-family: 'Yeseva One', cursive;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 160%;
+}
+.s1-left button{
+    margin-top: 30px;
+    font-weight: 500;
+    color: #111111;
+    padding: 15px 50px;
+    border-radius: 30px;
+    border: 1px solid #A274FF;
+    transition: all 0.3s;
+}
+.s1-left button i{
+    margin-left: 10px;
+    color: #111111;
+    transition: all 0.3s;
+}
+.s1-left button:hover{
+    background: #A274FF;
+    color: white;
+}
+.s1-left button:hover i{
+    color: white;
+}
+.s2{
+    padding: 100px 0;
+}
+.s2 h1{
+    margin-bottom: 30px;
+    font-size: 32px;
+}
+.s2-wrapper p{
+    font-size: 16px;
+    line-height: 170%;
+}
+.s4{
+    background: #A274FF;
+    padding: 100px 0;
+}
+.s4 h1{
+    margin-bottom: 30px;
+    font-size: 32px;
+    color: white;
+}
+.s4-reviews{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    row-gap: 30px;
+}
+.s4-wrapper{
+    width: 80%;
+}
+.s4-item{
+    display: flex;
+    align-items: center;
+}
+.s4-item i{
+    margin-right: 30px;
+    font-size: 25px;
+    color: white;
+}
+.s4-item p{
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 500;
+    color: white;
+}
+.brands{
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+}
+.brands img{
+    width: 100px;
+    height: 80px;
+    margin-right: 50px;
+}
+.brands img:last-child{
+    margin-right: 0;
+}
+.phone{
+    width: 70px;
+    height: 70px;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+    background: white;
+    border: 1px solid rgba(128, 128, 128, 0.385);
+}
+.phone i{
+    font-size: 32px;
+    color: #A274FF;
+}
+.footer{
+    padding: 50px 0;
+}
+.footer-logo{
+    width: 180px;
+}
+.footer-logo img{
+    width: 100%;
+}
+.footer-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.footer-form{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    border: 1px solid rgba(128, 128, 128, 0.327);
+    border-radius: 30px;
+    padding: 30px 50px;
+}
+.footer-nav{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+}
+.footer-nav a{
+    margin-right: 20px;
+    color: #111111;
+    font-weight: 500;
+}
+.footer-nav:last-child{
+    margin-right: 0;
+}
+.footer-form div h1{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.footer-form input::placeholder{
+    color: black;
+    font-size: 14px;
+}
+.footer-form input{
+    font-size: 14px;
+    color: #111111;
+    padding: 20px 0;
+}
+.footer-form button{
+    background: #A274FF;
+    color: white;
+    font-weight: 500;
+    padding: 20px 50px;
+    margin-top: 20px;
+}
